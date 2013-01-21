@@ -1,0 +1,3 @@
+load heightmap2.tga
+make-height-map snow1.tga stone1.tga grass1.tga sand1.tga
+save terrain2.tga
