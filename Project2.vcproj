@@ -42,7 +42,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;J:\My Projects\fltk&quot;"
+				AdditionalIncludeDirectories="&quot;$(ProjectDir)fltk&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE;FL_DLL"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
