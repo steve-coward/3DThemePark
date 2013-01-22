@@ -125,13 +125,13 @@ bool Track::Initialize(void)
 		(*itr)->refined->z = m_cz;
 		(*itr)->track_controls[0][0] = m_cx - m_width/2 + offset;
 		(*itr)->track_controls[0][1] = m_cy - m_length/2 + offset;
-		(*itr)->track_controls[0][2] = -18;
+		(*itr)->track_controls[0][2] = -8;
 		(*itr)->track_controls[1][0] = m_cx + m_width/2 - offset;
 		(*itr)->track_controls[1][1] = m_cy - m_length/2 + offset;
 		(*itr)->track_controls[1][2] = 40;
 		(*itr)->track_controls[2][0] = m_cx + m_width/2 - offset;
 		(*itr)->track_controls[2][1] = m_cy + m_length/2 - offset;
-		(*itr)->track_controls[2][2] = -18;
+		(*itr)->track_controls[2][2] = -8;
 		(*itr)->track_controls[3][0] = m_cx - m_width/2 + offset;
 		(*itr)->track_controls[3][1] = m_cy + m_length/2 - offset;
 		(*itr)->track_controls[3][2] = 40;
